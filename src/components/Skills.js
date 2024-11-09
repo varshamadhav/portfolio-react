@@ -10,31 +10,31 @@ function Skills() {
 const [listSkills] = useState([
   {
     name: 'HTML',
-    des: 'Eu voluptate sit do labore consectetur in ad esse qui laborum ad eiusmod. Esse ea velit culpa exercitation anim enim reprehenderit. Fugiat nostrud non dolore aliquip quis in ea amet duis.',
+    des: "Detail-oriented HTML Developer with deep expertise in semantic markup, accessibility standards, and modern HTML5 features including Canvas, Web Storage, and custom data attributes. Demonstrated success in crafting clean, maintainable code that ensures cross-browser compatibility and optimal SEO performance, while maintaining WCAG compliance for enhanced user accessibility.",
     icon: faHtml5
   },
   {
     name: 'CSS',
-    des: 'Ad ad in cillum ut labore irure aliqua. Ex sit dolore ipsum id duis nostrud veniam. Nisi duis ut veniam ut eiusmod occaecat ullamco ullamco. Consequat eu sunt ut elit dolor sint magna magna velit ex. Excepteur occaecat reprehenderit tempor veniam.',
+    des: "Experienced CSS Developer with advanced proficiency in CSS3, Flexbox, Grid, animations, and Sass/SCSS for creating stunning, responsive web interfaces across all devices. Proven track record of implementing complex layouts, custom UI components, and modern CSS frameworks while maintaining clean, scalable code that reduces load times and enhances user experience.",
     icon: faCss3
   },
   {
     name: 'Javascript',
-    des: 'Sunt nostrud nulla qui cillum mollit aute anim anim aliqua aute magna tempor. Do culpa culpa excepteur officia ut eu deserunt proident sint non ut do magna minim. Sunt et excepteur tempor culpa irure non exercitation. Amet nostrud ex aute incididunt incididunt ipsum.',
+    des: "Expert JavaScript Developer with advanced proficiency in ES6+, DOM manipulation, asynchronous programming, and modern frameworks, consistently delivering high-performance web applications and interactive user experiences. Demonstrated expertise in writing clean, modular code while leveraging JavaScript best practices, design patterns, and APIs to create efficient, scalable solutions that drive business results.",
     icon: faJs},
   {
     name: 'ReactJs',
-    des: 'Voluptate qui adipisicing dolore pariatur laboris deserunt consectetur reprehenderit. Esse dolor elit ullamco duis quis aliquip fugiat ipsum nisi est et. Nisi ut deserunt excepteur irure aliquip proident ',
+    des:"Accomplished React.js Developer with extensive experience in building dynamic, scalable web applications using modern React features including Hooks, Context API, and custom components, while ensuring optimal performance and code reusability. Proven track record in implementing Redux for state management, integrating RESTful APIs, and creating responsive user interfaces that deliver exceptional user experiences with a focus on component-based architecture.",
     icon: faReact
   },
   {
     name: 'VueJs',
-    des: 'Laborum commodo reprehenderit anim sunt est. Aliquip ipsum nisi incididunt enim ex id et sit sint magna. Deserunt minim ullamco aute veniam. Do irure nulla ut quis.',
+    des: "Skilled Vue.js Developer with expertise in building sophisticated single-page applications using Vue 3, Composition API, Vuex for state management, and Vue Router for seamless navigation and dynamic user experiences. Demonstrated success in developing reusable components, implementing complex reactive systems, and utilizing Vue's ecosystem tools like Nuxt.js while maintaining high code quality and application performance.",
     icon: faVuejs
   },
   {
     name: 'Laravel',
-    des: 'Ullamco incididunt adipisicing laboris ullamco ipsum quis nulla non. Non et irure amet in sint duis Lorem est eiusmod nisi. Aute dolor eiusmod esse et cupidatat ex minim do reprehenderit ut aute. In commodo do consectetur qui occaecat cupidatat sint ullamco dolor tempor ullamco elit.',
+    des: "Expert Laravel Developer with deep proficiency in building robust, scalable web applications using MVC architecture, Eloquent ORM, Blade templating, and Laravel's extensive ecosystem of tools and packages. Demonstrated success in implementing complex authentication systems, RESTful APIs, database migrations, and real-time features using Laravel WebSockets, while maintaining clean code practices and optimal application performance.",
     icon: faLaravel
   }
 
@@ -42,11 +42,11 @@ const [listSkills] = useState([
   return (
     <section className='skills' ref={scrollTab}>
        <div className="title" ref={(el) => el && divs.current.push(el)}>
-        This is my Skills
+        My Skills
        </div>
        <div className="des" ref={(el) => el && divs.current.push(el)}>
         {/* 20 */}
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam perspiciatis quae veniam amet nesciunt voluptatibus quis consectetur consequatur quisquam harum.
+        "Results-driven Front-end Developer with expertise in React.js, JavaScript, HTML5, and CSS3, specializing in building responsive and high-performance web applications.
        </div>
        <div className="list">
         {

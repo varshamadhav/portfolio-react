@@ -5,13 +5,13 @@ function Contacts() {
 const [listContacts] = useState([
   {
     title: 'Phone Number',
-    value: '+84123XXX'
+    value: '9148228456'
   },{
     title: 'Email',
-    value: 'hohoang.dev@gmail.com'
+    value: 'varshamadhav5@gmail.com'
   },{
     title: 'Instagram',
-    value: '@lundev.web'
+    value: '@varsha6'
   }
 ])
 const divs = useRef([]);
@@ -21,11 +21,11 @@ CustomHook(scrollTab, divs);
   return (
     <section className='contacts' ref={scrollTab}>
        <div className="title" ref={(el) => el && divs.current.push(el)}>
-        This is my Contacts
+         My Contact
        </div>
        <div className="des" ref={(el) => el && divs.current.push(el)}>
         {/* 20 */}
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam perspiciatis quae veniam amet nesciunt voluptatibus quis consectetur consequatur quisquam harum.
+        "Web developer with a knack for creating impactful digital solutions. Open for freelance projects  let's make your vision a reality!"
        </div>
        <div className="list"  ref={(el) => el && divs.current.push(el)}>
         {
